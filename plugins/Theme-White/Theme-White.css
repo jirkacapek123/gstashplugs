@@ -48,7 +48,7 @@ div.flex-column.nav.nav-pills > div.nav-item > a {
 }
 
 .bg-secondary {
-  background-color: #313437 !important;
+  background-color: #999999 !important;
 }
 
 .text-white {
@@ -212,4 +212,8 @@ option {
 
 div.react-select__menu-portal {
   z-index: 1050;
+}
+
+a.bg-secondary:focus {
+  background-color: #cfdce5 !important;
 }
