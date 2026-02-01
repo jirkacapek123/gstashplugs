@@ -5,15 +5,6 @@ metadata:
 version: 0.1.2
 date: "2026-02-01 15:24:19"
 requires: []
-# map of setting names to be displayed in the plugins page in the UI
-settings:
-  # internal name
-  foo:
-  # name to display in the UI
-  displayName: Foo
-  # type of the attribute to show in the UI
-  # can be BOOLEAN, NUMBER, or STRING
-  type: BOOLEAN
 source_repository: https://stashapp.github.io/CommunityScripts/stable/index.yml
 files:
 - README.md
