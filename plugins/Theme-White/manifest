@@ -2,8 +2,8 @@ id: Theme-White
 name: Theme - White
 metadata:
   description: White Theme for Stash by GeorgeTheGreat
-version: 0.1.1
-date: "2026-05-18 19:37:19"
+version: 0.1.2
+date: "2026-02-01 15:24:19"
 requires: []
 source_repository: https://stashapp.github.io/CommunityScripts/stable/index.yml
 files:
