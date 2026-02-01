@@ -1,16 +1,7 @@
-/*
-Originally created by Fidelio 2020
-StashApp Plex Theme - v1.0.5
-*/
-
 body {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #eff0f0;
-  background-attachment: fixed;
-  background-position: center;
   color: #000000;
 }
 
