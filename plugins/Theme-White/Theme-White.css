@@ -79,6 +79,10 @@ body {
   color: #2e2e2e !important;
 }
 
+a.bg-secondary:hover, a.bg-secondary:focus, button.bg-secondary:hover, button.bg-secondary:focus {
+  background-color: #5698cb !important;
+}
+
 .border-secondary {
   border-color: #2f3335 !important;
 }
@@ -171,11 +175,23 @@ input[type="range"]::-moz-range-thumb {
   background: #bcbcbc;
 }
 
-div.react-select__control {
-  background-color: hsla(0, 0%, 39.2%, 0.4);
-  color: #182026;
+div.react-select__control, .react-select {
+  background-color: rgb(57 119 160 / 6%);
+  color: #000000 !important;
   border-color: #394b59;
   cursor: pointer;
+}
+
+div.react-select__control .react-select__single-value, div.react-select__control .react-select__input-container {
+  color: #000000;
+}
+
+}
+.input-control, .text-input {
+  border: 0;
+  box-shadow: 0 0 rgba(19, 124, 189, 0), 0 0 rgba(19, 124, 189, 0), 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, .3), inset 0 1px 1px rgba(16, 22, 26, .4);
+  color: #f5f8fa;
+  background-color: rgba(16, 22, 26, .3);
 }
 
 .scene-wall-item-text-container {
