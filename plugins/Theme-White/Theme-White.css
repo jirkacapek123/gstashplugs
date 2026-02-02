@@ -37,11 +37,12 @@ body {
   color: #505050 !important;
 }
 
-.btn-primary:focus, .btn-primary.focus, a.minimal, button.minimal {
-	color: #3f3f3f
+.nav-pills .nav-link.active {
+  background-color: #1f2326;
+  color: #505050;
 }
 
-div.flex-column.nav.nav-pills > div.nav-item > a {
+.btn-primary:focus, .btn-primary.focus, a.minimal, button.minimal {
 	color: #3f3f3f
 }
 
@@ -135,11 +136,6 @@ minimal.w-100.active.btn.btn-primary {
 .show > .btn-primary.dropdown-toggle {
   color: #3f3f3f;
   border-color: #eee;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #1f2326;
 }
 
 .btn-primary.focus,
