@@ -99,6 +99,9 @@ minimal.w-100.active.btn.btn-primary {
 
 .nav-tabs .nav-link {
   outline: 0;
+  border: none;
+  color: #747474;
+  padding: 8px;
 }
 
 .input-control,
