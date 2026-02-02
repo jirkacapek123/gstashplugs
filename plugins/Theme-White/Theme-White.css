@@ -20,7 +20,7 @@ body {
 }
 
 * {
-  scrollbar-color: hsla(0, 0%, 100%, 0.2) transparent;
+  scrollbar-color: hsl(0deg 0% 0% / 20%) transparent;
 }
 
 .filtered-list-toolbar {
@@ -49,6 +49,7 @@ body {
 
 .nav-item:hover {
   background-color: #5698cb;
+  color: #ffffff;
 }
 
 .btn-primary:focus, .btn-primary.focus, a.minimal, button.minimal {
