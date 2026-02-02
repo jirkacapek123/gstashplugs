@@ -37,9 +37,18 @@ body {
   color: #505050 !important;
 }
 
-.nav-pills .nav-link.active {
-  background-color: #1f2326;
-  color: #505050;
+.nav-item > .nav-link.active {
+  background-color: #5698cb;
+  color: #ffffff;
+}
+
+.nav-item > .nav-link {
+  background-color: #5698cb00;
+  color: #777777;
+}
+
+.nav-item:hover {
+  background-color: #5698cb;
 }
 
 .btn-primary:focus, .btn-primary.focus, a.minimal, button.minimal {
