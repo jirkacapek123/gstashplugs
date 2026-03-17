@@ -93,7 +93,12 @@ a.bg-secondary:hover, a.bg-secondary:focus, button.bg-secondary:hover, button.bg
 }
 
 [type=submit]:not(:disabled) {
-  background-color: #5698cb;
+  background-color: #72a6ce;
+  color: white;
+}
+
+[type=submit]:not(:disabled):hover {
+  background-color: #2b83c6;
   color: white;
 }
 
