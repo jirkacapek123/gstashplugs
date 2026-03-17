@@ -266,3 +266,7 @@ div.react-select__menu-portal {
 a.bg-secondary:focus {
   background-color: #cfdce5 !important;
 }
+
+div.tasks-panel-tasks {
+transform: scale(0.75) !important;
+}
