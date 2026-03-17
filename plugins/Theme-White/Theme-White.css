@@ -148,6 +148,11 @@ minimal.w-100.active.btn.btn-primary {
   background-color: rgba(189, 192, 194, 0.3);
 }
 
+
+.clearable-text-field {
+    background-color: #b2b2b2;
+}
+
 #performer-page .image-container .performer {
   background-color: rgba(0, 0, 0, 0.45);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
